@@ -1,0 +1,69 @@
+
+
+
+body{
+
+	font-size: 20px; /*
+	
+	por ejemplo si al tamaño de la p queremos cambiarle el tamaño que sea mas grande 
+
+	supongamos que sea 30 px . hacemos el siguiente calculo
+
+	30/20 = 1.5 em de donde 30 es el tamaño deseado a dar, y 20 es el tamaño del font-size 
+
+
+	con rem le vamos a decir que tome el font-size del body
+
+
+
+	
+	*/
+
+}
+
+
+p{
+
+    font-size: 30px; /* los pixeles es una unidad que tenemos relativa */
+
+
+
+    font-size: 1.5em; /* los pixeles es una unidad que tenemos relativa 
+    
+     
+	1em va a equivaler a lo que seria el tamaño de fuente que tenga su
+	contenedor padre o el mas cercano .en este caso su contenedor mas cercano
+	o padre es es el body y 1em es equivalente a 16px
+
+
+
+
+
+
+    1em es equivalente a 16px 
+    
+	el navegador por defecto toma 16 px de tamaño de letra al menos que se lo especifiquemos en el body 
+
+
+    */
+
+
+}
+
+
+
+
+/*
+
+Unidades Relativas
+	px - pixel
+	em - Relativa al tamaño de fuente que tenga su elemento padre o el mas cercano
+	rem - Relativa al tamaño de fuente especificado en el body.
+	% - porcentaje
+
+Unidades Abosultas
+	Estas medidas nunca las vas a usar en el diseño web, pero aqui estan para que las conozcas
+	in - inches (pulgadas)
+	cm - centimetros
+	mm - milimetros
+*/

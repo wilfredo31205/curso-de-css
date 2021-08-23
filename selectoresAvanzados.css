@@ -1,0 +1,36 @@
+body{
+
+  
+
+}
+
+
+div p { /* seleccionando todos los parrafos que esten dentro de un div*, estos es un selector avanzado*/
+
+  
+
+
+}
+
+div>p{ /* seleccionando solo los parrafos directo del div le vamos a aplicar este tamaño */
+
+
+    font-size: 30px;
+
+}
+
+
+/* selector de atributos*/ 
+
+input[type]{} /* cvon este selector selecionamos para aplicarle css a los input de todos los tipos */
+
+
+input[type="text"]{} /* seleccionando los input tipo texto para darle estilos*/
+
+
+article { /* todo lo que esta en article aplicale todos esto estilos*/
+
+  font-size: 30px;
+  color: aqua;
+
+}

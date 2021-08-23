@@ -1,0 +1,58 @@
+
+
+
+
+
+
+body{
+
+    /* si queremos colocar un fondo que abarque el 100 % se lo tenemos que aplicar a este selector body*/
+
+
+    background: url('./img/moroccan-flower-dark.png');
+    /*background-size: 100%; /* se utiliza para darle tamaño a los fondos se le puede colocar el ancho y el alto 
+    
+    pero para que la imagen no se deforme solamente le colocamos un valor  , le damos 100 % para que abarque
+    la pantalla completa 
+    
+    */
+
+    background-size: cover; /* con cover tambien abarcamos el fondo o ancxho completo  a que acapare el fondo por completo*/
+
+    background-size: contain ;/* con contain abarcamos o ajustamos la iamgen como el ancho y el alto del contenenedor padre
+    
+    con cover solamente abarcamos el ancho y con contain abarca el alto y el ancho
+    
+    */
+    background-size: 50%; /* abarcando el 50% de ancho */
+
+    background-repeat:repeat ;
+    background-attachment: fixed; /* nos funciona para que cuando bajemos al hacer scroll la imagen se quede fija y los contenidos del fondo vayan bajando*/
+
+    background-position:50px 200px  ; /* nos sirve para darle posicion a los fondos es decir si queremos 
+    
+    posicionar el elemento al centro, izquierda .ect , el primer valor es el vertical y el segundo el horizontal
+
+    el primer valor es para darle posicionar el fondo  de izquierda a derecha 
+
+    */
+
+
+    background-position: center center ; /* centrando fondo verticalmente y horizo.*/
+
+
+}
+
+/* Valores que podemos usar en las propiedades
+background: repeat | no-repeat | repeat-x | repeat-y;
+
+background-size: auto | 100px 100px | 100% 100% | cover | contain;
+
+Explicacion de valores para background-size
+	auto: Valor por defecto, el ancho y alto de la imagen.
+	ancho y alto: Ancho y alto que nosotros le especifiquemos, si solo ponemos el primer valor, el segundo sera automatico.
+	porcentaje:  Porcentaje del ancho y alto que tendra el fondo tomando en cuenta el contenedor padre.
+	cover: Ajusta el ancho de la imagen para que avarque el ancho del contenedor padre.
+	contain: Ajusta la imagen para que avarque el ancho y alto del contenedor padre.
+
+background-attachment: scroll | fixed ;

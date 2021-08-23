@@ -1,0 +1,14 @@
+
+.fondo{
+
+    width: 500px;
+    height: 300px;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,46b5c9+60 */
+background: #3b679e; /* Old browsers */
+background: -moz-linear-gradient(top,  #3b679e 0%, #46b5c9 60%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3b679e 0%,#46b5c9 60%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3b679e 0%,#46b5c9 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#46b5c9',GradientType=0 ); /* IE6-9 */
+
+
+}
